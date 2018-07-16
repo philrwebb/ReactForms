@@ -33,22 +33,28 @@
   margin: 5%;
 }
 
-FormInput {
-  display: inline-block;
-  /* margin: 10px; */
-}
-
 .error-placeholder {
-    display: inline-block;
+    text-align: left;
     color: red;
     font-size: x-small;
     /* margin: 10px; */
 }
 
 placeholder {
-  font-size: larger;
+  font-size: small;
 }
+
 td {
   text-align: left;
   padding: 5px;
+}
+
+.labeltext {
+  font-size: small;
+}
+
+.formheader {
+  font-size: xx-large;
+  color: darkblue;
+  text-align: center;
 }
